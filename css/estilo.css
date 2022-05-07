@@ -68,26 +68,25 @@ main p {
 
 section.image {
     color: white;
+    background-size: cover;
+    box-shadow: inset 3px 3px 10px #00000063;
 }
 
 section.image > p {
     background-color: #0000005e;
+    text-shadow: 2px 2px 0px #0000005d;
     width: 300px;
     height: 300px;
 }
 
 section#img1 {
     background: url('../imagens/background001.jpg') center no-repeat fixed;
-    background-size: cover;
     padding: 50px 0px;
-    box-shadow: inset 3px 3px 10px #00000063;
 }
 
 section#img2 {
     background: url('../imagens/background002.jpg') center no-repeat fixed;
-    background-size: cover;
     padding: 50px 0px;
-    box-shadow: inset 3px 3px 10px #00000063;
 }
 
 footer > p {
