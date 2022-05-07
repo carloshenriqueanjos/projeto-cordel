@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    margin: 0px;
+
+    --fonte_padrao: Arial, Helvetica, sans-serif;
+    --fonte_header: 'Passion One', cursive;
+    --fonte_texto: 'Sriracha', cursive;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-family: var(--fonte_header);
+    text-transform: uppercase;
+    color: white;
+}
+
+span {
+    font-size: 60px;
+}
+
+header p {
+    font-size: 1.4em;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte_padrao);
+    padding: 0px 0px 40px 0px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 30px 0px;
+    max-width: 700px;
+    min-width: 280px;
+}
+
+main p {
+    font-size: 1.3em;
+    font-family: var(--fonte_texto);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 2em;
+    padding: 30px;
+}
+
+section.image {
+    color: white;
+}
+
+section.image > p {
+    background-color: #0000005e;
+    width: 300px;
+    height: 300px;
+}
+
+section#img1 {
+    background: url('../imagens/background001.jpg') center no-repeat fixed;
+    background-size: cover;
+    padding: 50px 0px;
+    box-shadow: inset 3px 3px 10px #00000063;
+}
+
+section#img2 {
+    background: url('../imagens/background002.jpg') center no-repeat fixed;
+    background-size: cover;
+    padding: 50px 0px;
+    box-shadow: inset 3px 3px 10px #00000063;
+}
+
+footer > p {
+    background-color: black;
+    font-family: var(--fonte_padrao);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    color: #003cff;
+    text-decoration: none;
+    font-weight: bold;
+}
